@@ -12,7 +12,7 @@ const Container = () => {
   const [nav, setNav] = useState(0);
   const [city, setcity] = useState("New York");
   const [visibleCards, setVisibleCards] = useState(6);
-  const filteredHotels = hotel.filter(item => item.city === city);
+  const filteredHotels = hotel.filter((item) => item.city === city);
   const CardArray = filteredHotels.slice(0, visibleCards).map((user, i) => {
     return (
       <NavLink to="/property/:id" className={styles.links}>
@@ -66,7 +66,7 @@ const Container = () => {
         </div>
 
         <div className={styles.maincard}>{CardArray}</div>
-        {visibleCards < hotel.length && (
+        {visibleCards < filteredHotels.length && (
           <button className={styles.show} onClick={loadMoreCards}>
             <GiSandsOfTime />
             Show More
