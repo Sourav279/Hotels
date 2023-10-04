@@ -1,0 +1,120 @@
+.App {
+  display: flex;
+  justify-content: center;
+  background-color: #e5e8f0;
+  padding-top: 1rem;
+  min-height: 100vh;
+  max-width: 70vw;
+  margin: 1rem 7rem 0rem;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.endbutton {
+  justify-self: flex-end;
+}
+
+
+.area {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 2rem;
+  align-items: flex-start;
+  gap: 2rem;
+  padding-bottom: 2rem;
+}
+
+.maincard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 2rem;
+  text-decoration: none;
+}
+
+.header button {
+  align-items: center;
+  height: fit-content;
+  padding: 0.75rem;
+  border-radius: 1rem;
+  border: none;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #4c4f56;
+  cursor: pointer;
+}
+
+.header button:hover,
+.header button:focus,
+.header button.active {
+  background-color: blue;
+  color: whitesmoke;
+  border: none;
+}
+
+.header {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+.links{
+  text-decoration: none;
+  color: rgb(44, 44, 44);
+}
+.links:active{
+  opacity: 0.7;
+  color:#4c4f56
+}
+
+/* .header div:last-child {
+  display: grid;
+  grid-template-columns: 15% ;
+  justify-content: right;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  flex: 1;
+} */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  position: relative;
+  width: 100%;
+}
+.view {
+  cursor: pointer;
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 2px blue solid;
+  border-radius: 1rem;
+  padding: 0.4rem;
+  color: blue;
+  font-weight: 600;
+  flex: 1;
+  right: 0;
+}
+.show {
+  cursor: pointer;
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  background-color: blue;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  color: white;
+  font-weight: 600;
+  flex: 1;
+  /* width: 100%; */
+  position: absolute;
+  justify-self: center;
+  right: 50%;
+  bottom: 0;
+  margin: 10px;
+}
