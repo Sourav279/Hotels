@@ -18,14 +18,14 @@ const Container = () => {
       <NavLink to="/property/:id" className={styles.links}>
         <Card
           className={styles.links}
-          key={hotel[i].id}
-          location={hotel[i].location}
-          name={hotel[i].name}
-          rent={hotel[i].rent}
-          room={hotel[i].room}
-          bed={hotel[i].bed}
-          bath={hotel[i].bath}
-          size={hotel[i].size}
+          key={filteredHotels[i].id}
+          location={filteredHotels[i].location}
+          name={filteredHotels[i].name}
+          rent={filteredHotels[i].rent}
+          room={filteredHotels[i].room}
+          bed={filteredHotels[i].bed}
+          bath={filteredHotels[i].bath}
+          size={filteredHotels[i].size}
         />
       </NavLink>
     );
