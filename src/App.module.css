@@ -27,6 +27,7 @@
 .maincard {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   row-gap: 2rem;
   text-decoration: none;
 }

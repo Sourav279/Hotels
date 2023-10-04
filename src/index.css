@@ -14,11 +14,12 @@ body {
   justify-content: center;
   background-color: #e5e8f0;
 }
-#root {
-  display: flex;
-  justify-content: center;
-}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+#root{
+  display: flex;
+  justify-content: center;
 }
