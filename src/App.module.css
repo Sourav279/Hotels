@@ -57,7 +57,8 @@
   gap: 10px;
   width: 100%;
 }
-.links {
+.links{
+  flex:1;
   text-decoration: none;
   color: rgb(44, 44, 44);
 }
