@@ -58,6 +58,7 @@
   width: 100%;
 }
 .links{
+  flex:1;
   text-decoration: none;
   color: rgb(44, 44, 44);
 }
