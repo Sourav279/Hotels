@@ -12,7 +12,7 @@ const Cards = ({ name, location, key, rent, room, bed, bath, size }) => {
     <Card
       className={styles.maincard}
       key={key}
-      style={{ width: "18rem", backgroundColor: "white", borderRadius: "8%" }}
+      style={{ width: "288px", backgroundColor: "white", borderRadius: "8%" }}
     >
       <img className={styles.image} src={building} alt="building" />
       <div className={styles.label}>For Rent</div>
